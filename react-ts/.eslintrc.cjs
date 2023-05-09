@@ -9,6 +9,7 @@ module.exports = {
   parserOptions: {
     ecmaVersion: "latest",
     sourceType: "module",
+    tsconfigRootDir: __dirname,
   },
   rules: {
     "no-console": ["error", { allow: ["warn", "error"] }],
